@@ -38,6 +38,7 @@ section#watch {
     background: #32cd32;
     margin-top: 10px;
     font-family: sans-serif;
+    text-align: center;
 }
 
 .download-button {
@@ -73,21 +74,37 @@ section#listen {
     font-family: sans-serif;
 }
 
-aside{
-    background: pink;
+aside {
+    background: rgba(221, 109, 96, 0.88);
     width: 200px;
     height: auto;
     position: fixed;
     top: 50px;
     right: 50px;
-    opacity: .8;
-    font: yellow;
+    color: yellow;
     font-weight: 200;
     font-family: sans-serif;
     cursor: pointer;
-    
 }
-
+aside#social {
+    background: rgba(221, 109, 96, 0.88);
+    width: 150px;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    cursor: pointer;
+ }
+ 
+ ul.social-links {
+    display: none;
+    list-style-type: none;
+ }
+ 
+ aside#social:hover ul.social-links {
+     display: block;
+ }
+ 
 footer {
     background: #32cd32;
     background-size: cover;
@@ -95,5 +112,4 @@ footer {
     margin-bottom: -20px;
     padding: 2px;
     font-family: sans-serif;
-   
 }
